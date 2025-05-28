@@ -24,6 +24,7 @@ git config --global alias.fe "fetch"
 git config --global alias.di "diff"
 git config --global alias.undo "reset --soft HEAD~1"
 git config --global alias.hist "log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short"
+git config --global alias.hr 'reset --hard "@{u}"'
 
 ```
 
